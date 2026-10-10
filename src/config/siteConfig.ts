@@ -51,8 +51,7 @@ export const siteConfig: SiteConfig = {
 	site_url: "https://luoxue007.com",
 
 	// 站点描述
-	description:
-		"这是我的第一个博客,dy关注小白喵",
+	description: "这是我的第一个博客,dy关注小白喵",
 
 	// 站点关键词
 	keywords: [
