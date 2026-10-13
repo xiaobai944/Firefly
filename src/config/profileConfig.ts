@@ -9,7 +9,7 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.avif",
 
 	// 名字
-	name: "Luoxue",
+	name: "洛雪",
 
 	// 个人签名
 	bio: "关注小白喵",
@@ -24,13 +24,13 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/CuteLeaf",
+			url: "https://github.com/xiaobai944",
 			showName: false,
 		},
 		{
 			name: "Email",
 			icon: "fa7-solid:envelope",
-			url: "mailto:xiaye@msn.com",
+			url: "mailto:3457440364@qq.com",
 			showName: false,
 		},
 		{

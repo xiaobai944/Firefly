@@ -37,7 +37,7 @@ const pages = resolvePageToggles({
 	// ── 关于 (About) ──────────────────────────────────
 
 	// 打赏页面开关
-	sponsor: true,
+	sponsor: false,
 });
 
 export const siteConfig: SiteConfig = {
@@ -90,11 +90,16 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		{
 			// 图标文件路径
-			src: "/favicon/firefly-32.png",
+			src: "/favicon/favicon-light-32.png",
 			// 可选，指定主题 'light' | 'dark'
-			// theme: "light",
+			theme: "light",
 			// 可选，图标大小
-			// sizes: "32x32",
+			sizes: "32x32",
+		},
+		{
+			src: "/favicon/favicon-dark-32.png",
+			theme: "dark",
+			sizes: "32x32",
 		},
 	],
 
@@ -109,14 +114,11 @@ export const siteConfig: SiteConfig = {
 		// image 和 url 类型可额外设置 valueDark，用于暗色模式下显示另一张图片，不设置则亮暗色共用 value
 		// 例如: { type: "image", value: "assets/images/logo.png", valueDark: "assets/images/logo-dark.png", alt: "Logo" }
 		// 使用 Astro 图标库时不需要设置 valueDark，图标会自动跟随主题亮暗色切换
-		logo: {
-			type: "image",
-			value: "assets/images/logo/firefly-light.png",
-			valueDark: "assets/images/logo/firefly-dark.png",
-			alt: "🍀",
-		},
+		// 举例：{ type: "icon", value: "material-symbols:home-pin-outline" }
+		// 想放自己的图片：把图片放进 public/ 或 src/assets/ 后填路径
+		// 当前不设置 logo，导航栏只显示下面的标题
 		// 导航栏标题
-		title: "Firefly Blog",
+		title: "小白",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
@@ -311,7 +313,7 @@ export const siteConfig: SiteConfig = {
 	// ── MyAnimeList配置 ──────────────────────────────────
 	mal: {
 		// MyAnimeList 用户名（列表需为公开状态，私密列表无法读取）
-		username: "cuteleaf",
+		username: "",
 		// MyAnimeList Client ID，在 https://myanimelist.net/apiconfig 注册免费应用后获取
 		clientId: "	0ef34371450f9c6c809deaadec6aa8f3",
 		// MAL API 地址
