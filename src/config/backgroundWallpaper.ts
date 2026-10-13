@@ -73,17 +73,13 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "欢迎来到我主宰的世界",
 			// 主页横幅主标题字体大小
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"全知全能的造物主，绝境逢生的希望之光，浮世万千的伟大演员，最强的旧日支配者，新世界唯一的奇迹",
+				"一切献给小白！",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
